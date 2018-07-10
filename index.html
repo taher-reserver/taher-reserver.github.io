@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<title>Jijel reservation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("data/back.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"> JIJEL</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> APPARTEMENT</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRIX</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="#Map" class="w3-bar-item w3-button"><i class="fa fa-map-marker" aria-hidden="true"></i> MAP</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">JIJEL</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">APPARTEMENT</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRIX</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="#Map" onclick="w3_close()" class="w3-bar-item w3-button">MAP</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Bienvenue à Jijel !</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Bienvenue à Jijel !</span><br>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Plus d'information !</a></p>
+  </div> 
+</header>
+
+<!-- About Section -->
+
+  <div class="w3-container" id="about" style="max-width: 1350px;padding:20px; width: 100%; background-color: #D3D7CFFF">
+    <h2 class="w3-center" style="padding-top: 20px; color: black;">Des photos de JIJEL</h2>  
+    <br>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j1.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j3.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j4.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j5.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j6.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j7.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j8.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j9.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j10.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j11.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j12.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j13.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j14.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j15.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j16.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j17.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j18.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j19.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j20.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j21.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j22.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j23.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j24.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j25.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j26.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j27.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j28.png" height="100%" width="100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="data/jijelSLIDER/j29.png" height="100%" width="100%">
+    </div>
+  </div>
+
+  <!-- -->
+  
+<!-- Work Section -->
+<div class="w3-container" style="padding:28px 16px;" id="work">
+
+  <hr>
+  <h3 class="w3-center">L'appartement</h3>
+  <p class="w3-center w3-large">Q'est ce qu'il y a dans l'appartement</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="data/pics/a1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="data/pics/a2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="data/pics/a3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="data/pics/a4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="data/pics/a5.jpg" style="width:100%;" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="data/pics/a6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="data/pics/a7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="data/pics/a8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+  </div>
+<br>
+  <!-- -->
+  
+  <hr>
+  <div class="w3-center" style="background-color: #BABDB6FF;color: black;">
+      <h3><strong>Caracteristiques</strong></h3>
+      <div class="w3-row w3-large">
+        <div class="w3-col s6">
+          <p><i class="fa fa-fw fa-shower" ></i> Sale de baim</p>
+          <p><i class="fa fa-fw fa-tv"></i> TV</p>
+          <p><i class="fas fa-bolt"></i> Gas/Electricité</p>
+          <p><i class="fas fa-bed"></i> Lits</p>
+          <p><i class="fa fa-fw fa-cutlery"></i> Cuisine</p>
+          <p><i class="fas fa-tint"></i> Eau(24/7)</p>
+        </div>
+        <div class="w3-col s6">
+          <p><i class="fas fa-money-bill-alt"></i> Moins chère</p>
+          
+          <p><i class="fas fa-swimmer"></i> 4Plages</p>
+          <p><i class="fas fa-exclamation"></i> Calm</p>
+          <p><i class="fas fa-smile"></i> Politesse</p>
+          <p><i class="fas fa-user-shield"></i> Securisée</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <hr>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PRIX</h3>
+  <p class="w3-large">Choisir le prix qui vous arrange.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Inferiuer a 5 jours</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">2800 DZ</h2>
+          <span class="w3-opacity">la nuit</span>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Entre 5 et 10 jours</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">2500 DZ</h2>
+          <span class="w3-opacity">la nuit</span>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Superieur a 10 jours</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">2300 DZ</h2>
+          <span class="w3-opacity">la nuit</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding-top: 128px;padding-bottom: 20px;  " id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Taher, Jijel</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phones: 0774653505---0770287363</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: taher.reserver@gmail.com</p>
+      <p><i class="fas fa-money-check-alt fa-fw w3-xxlarge w3-margin-right"></i>CCP: 2130510/88</p>
+      <br>
+      <div>
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required id="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required id="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" id="Message"></p>
+        <p>
+          <button class="w3-button w3-black" onclick="sendMail()">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </div>
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" style="width:100%;height:510px;"></div>
+    </div>
+  </div>  
+</div>
+
+<div id="Map" style="padding-top: 50px">
+    <div id="jijelMap" style="width:100%;height:420px;"></div>
+  </div>
+<!-- Jijel Maps -->
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/slimane.ch"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Developed by <strong>CHEBBAH Mehdi</strong> <br>E-mail me at : <strong>gm_chebbah@esi.dz</strong></p>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+  /********************************************************************/
+  //           the google maps
+function myMap()
+{
+  myCenter=new google.maps.LatLng(36.754434, 5.889901);
+  var mapOptions= {
+    center:myCenter,
+    zoom:11.5, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+
+  myCenter2=new google.maps.LatLng(36.826614, 5.766801);
+  var mapOptions2= {
+    center:myCenter2,
+    zoom:10, scrollwheel: false, draggable: true,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("jijelMap"),mapOptions2);
+}
+/******************************************************************************/
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+/**********************************************************************************/
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+/*************************************************************************/
+//           the slideshow
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4500); // Change image every 4.5 seconds
+} 
+/*****************************************************************/
+//           send the email
+function sendMail(){
+  var url= "mailto:taher.reserver@gmail.com"
+          +"?subject="+encodeURI(document.getElementById("Email").value) + encodeURI(" : " + document.getElementById("Name").value) 
+          +"&body="+encodeURI(document.getElementById("Message").value + "     .Si vous avez reserver veillez inserer une photo de recu CCP");
+  window.open(url);
+}
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-haSCW8L7eCqBIh_vLvEf0obbhYcGqhE&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
